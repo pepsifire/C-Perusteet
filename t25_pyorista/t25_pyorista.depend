@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1599817260 source:c:\users\same\documents\codeblocks\ohjelmointi1\t25_pyorista\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

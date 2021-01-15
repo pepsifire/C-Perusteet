@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1603207840 source:c:\users\same\documents\codeblocks\ohjelmointi1\kotitehtava3\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1604499318 source:c:\users\same\documents\codeblocks\ohjelmointi1\kotitehtava4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

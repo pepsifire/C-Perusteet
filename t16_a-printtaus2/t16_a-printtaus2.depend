@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1599733603 source:c:\users\same\documents\codeblocks\ohjelmointi1\t16_a-printtaus2\main.c
+	<stdio.h>
+	<stdlib.h>
+

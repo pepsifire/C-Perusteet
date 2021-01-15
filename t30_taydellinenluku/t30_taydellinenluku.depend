@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1599831683 source:c:\users\same\documents\codeblocks\ohjelmointi1\t30_taydellinenluku\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

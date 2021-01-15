@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1603467530 source:c:\users\same\documents\codeblocks\ohjelmointi1\valikoe1\teht17\main.c
+	<stdio.h>
+	<stdlib.h>
+

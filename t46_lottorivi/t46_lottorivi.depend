@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1604324818 source:c:\users\same\documents\codeblocks\ohjelmointi1\valikoe1\t46_lottorivi\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1604324918 source:c:\users\same\documents\codeblocks\ohjelmointi1\t46_lottorivi\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

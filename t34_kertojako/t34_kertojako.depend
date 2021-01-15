@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1600081521 source:c:\users\same\documents\codeblocks\ohjelmointi1\t34_kertojako\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
