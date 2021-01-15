@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1600075986 source:c:\users\same\documents\codeblocks\ohjelmointi1\t32_lantinheitto\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

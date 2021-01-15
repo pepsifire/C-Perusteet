@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1604407488 source:c:\users\same\documents\codeblocks\ohjelmointi1\t47_makutesti\main.c
+	<stdio.h>
+	<stdlib.h>
+

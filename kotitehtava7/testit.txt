@@ -1,0 +1,54 @@
+Ohjelmatestit (testattu kotitehtävä 6. ohjelmaan)
+
+Huom. ohjelmassa jonkin sortin bugi clearbufferin kanssa, vaatii ylimääräisen enterin painalluksen tietyissä kohdissa.
+
+Testit:
+
+1. Syotetään virheellinen tilinumero
+Odotettu tulos: Ohjelma ilmoittaa virheen tilitiedoston avaamisessa ja sulkeutuu
+Varsinainen tulos: Ohjelma ilmoittaa virheen tilitiedoston avaamisessa ja sulkeutuu
+
+2. Syötetään oikea tilinumero, mutta väärä pinkoodi
+Odotettu tulos: Ohjelma ilmoittaa pinkoodin olevan väärä ja sulkee ohjelman
+Varsinainen tulos: Ohjelma ei ilmoita pinkoodin olevan väärä, mutta sulkeutuu silti. (huom clearbuffer-bugi)
+
+3. Syötetään oikea tilinumero ja pinkoodi
+Odotettu tulos: Saavutaan toimintoruutuun
+Varsinainen tulos: Saavutaan toimintoruutuun (huom clearbuffer-bugi)
+
+4. Syötetään toimintoruudussa jotain muuta kuin numeroita
+Odotettu tulos: Palataan takaisin toimintoruutuun ilman että mitään kummallista tapahtuu
+Varsinainen tulos: Ohjelma menee jumiin, eikä enää vastaa, ohjelman suoritus täytyy lopettaa itse
+
+5. Ohjelman keskeytys toimintoruudusta
+Odotettu tulos: Ohjelma keskeytyy normaalisti
+Varsinainen tulos: Ohjelma keskeytyy normaalisti
+
+6. Muun kuin numerosyötteen syöttäminen ruuduissa Otto, Saldo ja Tapahtumat
+Odotettu tulos: Mitään erikoista ei tapahdu ja odotetaan edelleen oikeaa syötettä eli numerosyötettä
+Varsinainen tulos: Ohjelma kaatuu samalla tavalla kuin kohdassa 4. 
+
+7. Kirjainsyöte summaa nostaessa
+Odotettu tulos: Ohjelma ei hyväksy syötettä, kysyy uudelleen (tätä ei ole edes ohjelmoitu)
+Varsinainen tulos: Ohjelma käyttäytyy kuin olisi syötetty 0, eli tililtä ei vähene rahaa, muuten ohjelma käyttäytyy normaalisti
+
+8. Suuremman summan nostaminen kuin tilillä on rahaa
+Odotettu tulos: Tili ei mene miinukselle ja nostetaan kaikki siellä oleva raha
+Varsinainen tulos: Tili ei mene miinukselle ja nostetaan kaikki siellä oleva raha
+
+9. Nostetaan rahaa tililtä
+Odotettu tulos: Tilin saldo vähenee noston verran ja seteleitä annetaan oikea määrä
+Varsinainen tulos: Tilin saldo vähenee noston verran ja seteleitä annetaan oikea määrä
+
+10. Nostetaan miinusmerkkinen luku
+Odotettu tulos: Saldo ei vähene, koska kyseessä on väärä syöte
+Varsinainen tulos: Saldo ei vähene, eikä seteleitä anneta
+
+11. Tyhjä tilinumero
+Odotettu tulos: Kysytään pinkoodia ja ohjelma toteaa tilitiedoston avaamisen virheen ja sitten lopettaa ajon
+Varsinainen tulos: Kysytään pinkoodia ja ohjelma toteaa tilitiedoston avaamisen virheen ja sitten lopettaa ajon
+
+12. Tilinumero oikein, mutta tyhjä pinkoodi
+Odotettu tulos: Ohjelma ilmoittaa ettei tilitiedostoa voi avata ja lopettaa
+Varsinainen tulos: Ohjelma ilmoittaa ettei tilitiedostoa voi avata ja lopettaa
+

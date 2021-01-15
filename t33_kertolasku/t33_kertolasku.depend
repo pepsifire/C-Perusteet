@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1600081893 source:c:\users\same\documents\codeblocks\ohjelmointi1\t33_kertolasku\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

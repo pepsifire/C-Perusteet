@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1600368256 source:c:\users\same\documents\codeblocks\ohjelmointi1\t43_nopanheitto\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

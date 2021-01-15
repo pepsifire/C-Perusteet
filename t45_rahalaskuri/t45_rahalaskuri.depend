@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1600692641 source:c:\users\same\documents\codeblocks\ohjelmointi1\t45_rahalaskuri\main.c
+	<stdio.h>
+	<stdlib.h>
+
